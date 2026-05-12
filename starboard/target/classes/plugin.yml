@@ -1,0 +1,6 @@
+name: StarBoard
+main: net.starcore.starboard.StarBoardPlugin
+version: 1.0.0
+api-version: 1.26
+description: "StarCore scoreboard and tablist plugin with optimized per-player updates."
+softdepend: [StarEcon, StarBank]

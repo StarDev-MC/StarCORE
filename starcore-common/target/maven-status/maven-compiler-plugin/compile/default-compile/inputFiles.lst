@@ -1,0 +1,15 @@
+/workspaces/StarCORE/starcore-common/src/main/java/net/starcore/common/data/PlayerDataManager.java
+/workspaces/StarCORE/starcore-common/src/main/java/net/starcore/common/DefaultServiceRegistry.java
+/workspaces/StarCORE/starcore-common/src/main/java/net/starcore/common/cache/CacheStore.java
+/workspaces/StarCORE/starcore-common/src/main/java/net/starcore/common/util/PermissionUtil.java
+/workspaces/StarCORE/starcore-common/src/main/java/net/starcore/common/data/PlayerDataRepository.java
+/workspaces/StarCORE/starcore-common/src/main/java/net/starcore/common/gui/GuiFactory.java
+/workspaces/StarCORE/starcore-common/src/main/java/net/starcore/common/message/LangManager.java
+/workspaces/StarCORE/starcore-common/src/main/java/net/starcore/common/database/DatabaseManager.java
+/workspaces/StarCORE/starcore-common/src/main/java/net/starcore/common/event/DefaultEventBus.java
+/workspaces/StarCORE/starcore-common/src/main/java/net/starcore/common/cooldown/CooldownManager.java
+/workspaces/StarCORE/starcore-common/src/main/java/net/starcore/common/data/SqlPlayerDataRepository.java
+/workspaces/StarCORE/starcore-common/src/main/java/net/starcore/common/cache/GuavaCacheStore.java
+/workspaces/StarCORE/starcore-common/src/main/java/net/starcore/common/placeholder/PlaceholderManager.java
+/workspaces/StarCORE/starcore-common/src/main/java/net/starcore/common/task/AsyncTaskScheduler.java
+/workspaces/StarCORE/starcore-common/src/main/java/net/starcore/common/config/ConfigManager.java

@@ -1,0 +1,7 @@
+/workspaces/StarCORE/starcmds/src/main/java/net/starcore/starcmds/command/chat/MsgCommand.java
+/workspaces/StarCORE/starcmds/src/main/java/net/starcore/starcmds/command/admin/VanishCommand.java
+/workspaces/StarCORE/starcmds/src/main/java/net/starcore/starcmds/StarCmdsPlugin.java
+/workspaces/StarCORE/starcmds/src/main/java/net/starcore/starcmds/listener/TeleportTracker.java
+/workspaces/StarCORE/starcmds/src/main/java/net/starcore/starcmds/command/teleport/SpawnCommand.java
+/workspaces/StarCORE/starcmds/src/main/java/net/starcore/starcmds/command/teleport/BackCommand.java
+/workspaces/StarCORE/starcmds/src/main/java/net/starcore/starcmds/command/teleport/SetSpawnCommand.java

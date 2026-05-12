@@ -1,0 +1,22 @@
+name: StarCmds
+main: net.starcore.starcmds.StarCmdsPlugin
+version: 1.0.0
+api-version: 1.26
+description: "StarCore utility command framework with modular feature groups."
+softdepend: [StarEcon]
+commands:
+  spawn:
+    description: Teleport to spawn.
+    usage: /spawn
+  setspawn:
+    description: Set the server spawn location.
+    usage: /setspawn
+  back:
+    description: Return to your previous location.
+    usage: /back
+  msg:
+    description: Send a private message.
+    usage: /msg <player> <message>
+  vanish:
+    description: Toggle vanish state.
+    usage: /vanish

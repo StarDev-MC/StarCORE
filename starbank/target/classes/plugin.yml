@@ -1,0 +1,10 @@
+name: StarBank
+main: net.starcore.starbank.StarBankPlugin
+version: 1.0.0
+api-version: 1.26
+description: "Bank plugin with wallet separation, deposit, and withdrawal support."
+softdepend: [StarEcon]
+commands:
+  bank:
+    description: Manage bank deposits and withdrawals.
+    usage: /bank <deposit|withdraw|balance> [amount]

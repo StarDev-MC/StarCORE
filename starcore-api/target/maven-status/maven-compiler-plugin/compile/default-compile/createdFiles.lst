@@ -1,0 +1,16 @@
+net/starcore/api/DatabaseService$SqlFunction.class
+net/starcore/api/MessageProvider.class
+net/starcore/api/PlayerData.class
+net/starcore/api/ConfigProvider.class
+net/starcore/api/PlaceholderResolver.class
+net/starcore/api/DatabaseService.class
+net/starcore/api/DatabaseService$SqlConsumer.class
+net/starcore/api/Repository.class
+net/starcore/api/ServiceRegistry.class
+net/starcore/api/EconomyService.class
+net/starcore/api/GuiProvider.class
+net/starcore/api/EventBus.class
+net/starcore/api/PlayerDataService.class
+net/starcore/api/StarCommand.class
+net/starcore/api/TaskScheduler.class
+net/starcore/api/CooldownService.class

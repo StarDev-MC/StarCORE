@@ -1,0 +1,3 @@
+net/starcore/starbank/manager/BankAccountManager.class
+net/starcore/starbank/command/BankCommand.class
+net/starcore/starbank/StarBankPlugin.class

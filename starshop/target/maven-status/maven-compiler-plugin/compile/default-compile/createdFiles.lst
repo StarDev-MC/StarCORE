@@ -1,0 +1,6 @@
+net/starcore/starshop/manager/ShopManager.class
+net/starcore/starshop/StarShopPlugin.class
+net/starcore/starshop/command/SellCommand.class
+net/starcore/starshop/manager/ShopItem.class
+net/starcore/starshop/command/ShopCommand.class
+net/starcore/starshop/command/SellAllCommand.class

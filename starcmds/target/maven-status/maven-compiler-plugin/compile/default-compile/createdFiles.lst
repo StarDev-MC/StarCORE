@@ -1,0 +1,7 @@
+net/starcore/starcmds/command/teleport/SpawnCommand.class
+net/starcore/starcmds/command/teleport/BackCommand.class
+net/starcore/starcmds/command/admin/VanishCommand.class
+net/starcore/starcmds/StarCmdsPlugin.class
+net/starcore/starcmds/listener/TeleportTracker.class
+net/starcore/starcmds/command/chat/MsgCommand.class
+net/starcore/starcmds/command/teleport/SetSpawnCommand.class

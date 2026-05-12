@@ -1,0 +1,6 @@
+/workspaces/StarCORE/starshop/src/main/java/net/starcore/starshop/command/SellCommand.java
+/workspaces/StarCORE/starshop/src/main/java/net/starcore/starshop/manager/ShopItem.java
+/workspaces/StarCORE/starshop/src/main/java/net/starcore/starshop/command/SellAllCommand.java
+/workspaces/StarCORE/starshop/src/main/java/net/starcore/starshop/manager/ShopManager.java
+/workspaces/StarCORE/starshop/src/main/java/net/starcore/starshop/command/ShopCommand.java
+/workspaces/StarCORE/starshop/src/main/java/net/starcore/starshop/StarShopPlugin.java

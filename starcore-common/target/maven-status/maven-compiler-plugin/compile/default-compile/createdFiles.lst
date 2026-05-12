@@ -1,0 +1,16 @@
+net/starcore/common/DefaultServiceRegistry.class
+net/starcore/common/task/AsyncTaskScheduler.class
+net/starcore/common/cache/CacheStore.class
+net/starcore/common/gui/GuiFactory.class
+net/starcore/common/data/SqlPlayerDataRepository.class
+net/starcore/common/data/PlayerDataRepository.class
+net/starcore/common/database/DatabaseManager.class
+net/starcore/common/message/LangManager.class
+net/starcore/common/cache/GuavaCacheStore.class
+net/starcore/common/util/PermissionUtil.class
+net/starcore/common/data/PlayerDataManager.class
+net/starcore/common/placeholder/PlaceholderManager$Placeholder.class
+net/starcore/common/config/ConfigManager.class
+net/starcore/common/cooldown/CooldownManager.class
+net/starcore/common/event/DefaultEventBus.class
+net/starcore/common/placeholder/PlaceholderManager.class

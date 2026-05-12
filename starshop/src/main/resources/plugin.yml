@@ -1,0 +1,16 @@
+name: StarShop
+main: net.starcore.starshop.StarShopPlugin
+version: 1.0.0
+api-version: 1.26
+description: "Inventory-based shop framework with GUI and sell support."
+softdepend: [StarEcon]
+commands:
+  shop:
+    description: Open the shop GUI.
+    usage: /shop
+  sell:
+    description: Sell held item.
+    usage: /sell
+  sellall:
+    description: Sell all valid items.
+    usage: /sellall

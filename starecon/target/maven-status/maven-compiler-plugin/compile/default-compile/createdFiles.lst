@@ -1,0 +1,5 @@
+net/starcore/starecon/command/PayCommand.class
+net/starcore/starecon/command/BalanceTopCommand.class
+net/starcore/starecon/command/BalanceCommand.class
+net/starcore/starecon/DefaultEconomyService.class
+net/starcore/starecon/StarEconPlugin.class
