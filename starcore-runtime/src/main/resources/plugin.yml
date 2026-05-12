@@ -1,0 +1,6 @@
+name: StarCore
+main: net.starcore.runtime.StarCoreRuntimePlugin
+version: 1.0.0
+api-version: 1.26
+description: "Shared StarCore runtime plugin containing common libraries and services."
+commands: {}
