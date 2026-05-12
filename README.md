@@ -19,14 +19,35 @@ Requires Java 25 and Maven.
 
 ```bash
 cd /workspaces/StarCORE
-mvn -am -pl starcore-api,starcore-common,starcore-plugin,starecon,starbank,starboard,starshop,starcmds compile -DskipTests
+mvn clean package -DskipTests
 ```
 
-## Run
+## Download & Install
 
-Build each plugin module as a JAR and place the resulting artifacts into your Paper server `plugins/` directory.
+Pre-built plugin JAR files are available in the [releases/](releases/) directory. Each JAR includes all necessary dependencies shaded internally.
 
-The expected output JARs are located under each module's `target/` directory.
+**Installation:**
+1. Download the desired plugin JAR(s) from the `releases/` directory
+2. Place them in your Paper server's `plugins/` directory
+3. Restart your server
+
+**Available plugins:**
+- `starecon-1.0.0-SNAPSHOT.jar` - Economy system with balance, pay, and top balance commands
+- `starbank-1.0.0-SNAPSHOT.jar` - Bank subsystem with wallet management
+- `starboard-1.0.0-SNAPSHOT.jar` - Scoreboard and tablist system
+- `starshop-1.0.0-SNAPSHOT.jar` - GUI-based shop system
+- `starcmds-1.0.0-SNAPSHOT.jar` - Modular utility commands framework
+
+## Development
+
+To build the project and generate new JAR files:
+
+```bash
+cd /workspaces/StarCORE
+mvn clean package -DskipTests
+```
+
+The generated JARs will be available in each module's `target/` directory and automatically copied to `releases/`.
 
 ## Notes
 
