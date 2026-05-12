@@ -24,19 +24,24 @@ mvn clean package -DskipTests
 
 ## Download & Install
 
-Pre-built plugin JAR files are available in the [releases/](releases/) directory. Each JAR includes all necessary dependencies shaded internally.
+Pre-built plugin JAR files are available in the [releases/](releases/) directory. The system uses a shaded runtime module that contains all shared libraries and dependencies.
 
 **Installation:**
-1. Download the desired plugin JAR(s) from the `releases/` directory
-2. Place them in your Paper server's `plugins/` directory
-3. Restart your server
+1. Download `starcore-runtime-1.0.0-SNAPSHOT.jar` first - this contains all shared libraries (HikariCP, SQLite, Guava)
+2. Download any plugin JARs you want (starecon, starbank, starboard, starshop, starcmds)
+3. Place all JARs in your Paper server's `plugins/` directory
+4. Restart your server
+
+**Required:** Always install `starcore-runtime-1.0.0-SNAPSHOT.jar`
 
 **Available plugins:**
-- `starecon-1.0.0-SNAPSHOT.jar` - Economy system with balance, pay, and top balance commands
-- `starbank-1.0.0-SNAPSHOT.jar` - Bank subsystem with wallet management
-- `starboard-1.0.0-SNAPSHOT.jar` - Scoreboard and tablist system
-- `starshop-1.0.0-SNAPSHOT.jar` - GUI-based shop system
-- `starcmds-1.0.0-SNAPSHOT.jar` - Modular utility commands framework
+- `starecon-1.0.0-SNAPSHOT.jar` (11 KB) - Economy system with balance, pay, and top balance commands
+- `starbank-1.0.0-SNAPSHOT.jar` (8.7 KB) - Bank subsystem with wallet management
+- `starboard-1.0.0-SNAPSHOT.jar` (5.9 KB) - Scoreboard and tablist system
+- `starshop-1.0.0-SNAPSHOT.jar` (9.4 KB) - GUI-based shop system
+- `starcmds-1.0.0-SNAPSHOT.jar` (11 KB) - Modular utility commands framework
+
+**Total size:** ~16 MB (runtime) + plugin JARs (~45 KB total for all plugins)
 
 ## Development
 

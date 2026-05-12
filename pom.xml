@@ -21,6 +21,7 @@
         <module>starcore-api</module>
         <module>starcore-common</module>
         <module>starcore-plugin</module>
+        <module>starcore-runtime</module>
         <module>starecon</module>
         <module>starbank</module>
         <module>starboard</module>

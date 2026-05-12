@@ -13,31 +13,25 @@
         <dependency>
             <groupId>net.starcore</groupId>
             <artifactId>starcore-api</artifactId>
-        <version>${project.version}</version>
+            <version>${project.version}</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>net.starcore</groupId>
             <artifactId>starcore-common</artifactId>
-        <version>${project.version}</version>
+            <version>${project.version}</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>net.starcore</groupId>
             <artifactId>starcore-plugin</artifactId>
-        <version>${project.version}</version>
+            <version>${project.version}</version>
+            <scope>provided</scope>
         </dependency>
-            <dependency>
+        <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
             <scope>provided</scope>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-shade-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 </project>
