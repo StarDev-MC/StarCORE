@@ -1,0 +1,34 @@
+# StarBank Configuration
+
+# Database settings (uses StarCore database)
+database:
+  type: sqlite
+
+# Bank settings
+bank:
+  starting-balance: 0
+  max-balance: 1000000000
+  transaction-limit: 1000000
+
+# Commands
+commands:
+  bank:
+    aliases: [sb]
+    cooldown: 0
+
+# GUI settings
+gui:
+  title: "Bank"
+  size: 27
+  update-interval: 20
+
+# Messages
+messages:
+  no-permission: "&cYou don't have permission to use this command."
+  invalid-amount: "&cPlease enter a valid amount."
+  insufficient-funds: "&cInsufficient funds."
+  deposit-success: "&aDeposited &e%amount% &ainto your bank."
+  withdraw-success: "&aWithdrew &e%amount% &afrom your bank."
+  balance: "&aBank Balance: &e%balance%"
+  transaction-header: "&aRecent Transactions:"
+  no-transactions: "&cNo transactions found."

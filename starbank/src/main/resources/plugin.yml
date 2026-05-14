@@ -1,10 +1,18 @@
 name: StarBank
 main: net.starcore.starbank.StarBankPlugin
-version: 1.0.0
+version: 1.1.0
 api-version: 1.26
 description: "Bank plugin with wallet separation, deposit, and withdrawal support."
-softdepend: [StarEcon]
+softdepend: [StarEcon, StarCore, PlaceholderAPI]
 commands:
   bank:
     description: Manage bank deposits and withdrawals.
-    usage: /bank <deposit|withdraw|balance> [amount]
+    usage: /bank <balance|deposit|withdraw|transactions|gui> [amount]
+    aliases: [sb]
+permissions:
+  starbank.use:
+    description: Allows players to use basic bank commands.
+    default: true
+  starbank.admin:
+    description: Allows admins to use admin bank commands.
+    default: op
