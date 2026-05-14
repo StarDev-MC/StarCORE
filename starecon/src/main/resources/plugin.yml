@@ -1,6 +1,6 @@
 name: StarEcon
 main: net.starcore.starecon.StarEconPlugin
-version: 1.0.0
+version: 1.1.0
 api-version: 1.26
 description: "StarCore economy plugin with async balance management and pay support."
 softdepend: [StarCore]
