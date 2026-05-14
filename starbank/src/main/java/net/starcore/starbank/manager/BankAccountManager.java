@@ -1,15 +1,15 @@
 package net.starcore.starbank.manager;
 
+import net.starcore.api.BankService;
 import net.starcore.api.DatabaseService;
 import net.starcore.api.EconomyService;
 
-import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.UUID;
 import java.util.concurrent.CompletableFuture;
 
-public class BankAccountManager {
+public class BankAccountManager implements BankService {
     private final DatabaseService databaseService;
     private final EconomyService economyService;
 

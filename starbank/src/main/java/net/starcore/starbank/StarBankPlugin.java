@@ -1,7 +1,7 @@
 package net.starcore.starbank;
 
+import net.starcore.api.BankService;
 import net.starcore.api.EconomyService;
-import net.starcore.api.MessageProvider;
 import net.starcore.api.PlayerDataService;
 import net.starcore.plugin.AbstractStarCorePlugin;
 import net.starcore.starbank.command.BankCommand;
@@ -18,6 +18,7 @@ public final class StarBankPlugin extends AbstractStarCorePlugin {
             return;
         }
         bankAccountManager = new BankAccountManager(databaseService, economyService);
+        services.register(BankService.class, bankAccountManager);
         registerCommand(new BankCommand(this, economyService, bankAccountManager));
     }
 }

@@ -14,19 +14,19 @@
         <dependency>
             <groupId>net.starcore</groupId>
             <artifactId>starcore-api</artifactId>
-            <version>${project.version}</version>
+            <version>1.0.0</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>net.starcore</groupId>
             <artifactId>starcore-common</artifactId>
-            <version>${project.version}</version>
+            <version>1.0.0</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>net.starcore</groupId>
             <artifactId>starcore-plugin</artifactId>
-            <version>${project.version}</version>
+            <version>1.0.0</version>
             <scope>provided</scope>
         </dependency>
         <dependency>

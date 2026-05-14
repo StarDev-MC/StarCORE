@@ -1,0 +1,38 @@
+default:
+  title: "StarMC"
+  refresh-interval: 40
+  lines:
+    - "Name: %player_name%"
+    - "Role: %starrole_rank%"
+    - "Money: %starecon_balance_formatted%"
+    - "Bank: %starbank_balance_formatted%"
+    - "Kills: %player_kills%"
+    - "Deaths: %player_deaths%"
+    - ""
+    - "&7play.starmc.net"
+
+per-world:
+  lobby:
+    title: "&bStarMC &7Lobby"
+    lines:
+      - "Name: %player_name%"
+      - "Role: %starrole_rank%"
+      - "Money: %starecon_balance_formatted%"
+      - "Bank: %starbank_balance_formatted%"
+      - "Kills: %player_kills%"
+      - "Deaths: %player_deaths%"
+      - ""
+      - "&7play.starmc.net"
+
+per-rank:
+  vip:
+    title: "&6VIP StarMC"
+    lines:
+      - "Name: %player_name%"
+      - "Role: %starrole_rank%"
+      - "Money: %starecon_balance_formatted%"
+      - "Bank: %starbank_balance_formatted%"
+      - "Kills: %player_kills%"
+      - "Deaths: %player_deaths%"
+      - ""
+      - "&7play.starmc.net"

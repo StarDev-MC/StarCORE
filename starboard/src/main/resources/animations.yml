@@ -1,0 +1,9 @@
+title:
+  style: gradient
+  speed: 5
+  rgb: true
+  legacy-fallback: true
+  colors:
+    - "#ff5f6d"
+    - "#ffc371"
+    - "#3a86ff"

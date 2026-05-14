@@ -1,3 +1,12 @@
+net/starcore/starboard/scoreboard/AnimationConfig$Style.class
 net/starcore/starboard/scoreboard/ScoreboardManager.class
 net/starcore/starboard/listener/PlayerJoinListener.class
+net/starcore/starboard/scoreboard/ScoreboardConfig.class
+net/starcore/starboard/scoreboard/ScoreboardManager$1.class
+net/starcore/starboard/scoreboard/ScoreboardManager$OptionalPlaceholderApi.class
+net/starcore/starboard/scoreboard/ScoreboardManager$CachedValue.class
+net/starcore/starboard/scoreboard/ScoreboardManager$PlayerState.class
+net/starcore/starboard/scoreboard/AnimationConfig.class
+net/starcore/starboard/scoreboard/ScoreboardManager$RgbColor.class
+net/starcore/starboard/scoreboard/ScoreboardConfig$LineTemplate.class
 net/starcore/starboard/StarBoardPlugin.class

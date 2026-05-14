@@ -1,4 +1,5 @@
 /workspaces/StarCORE/starcore-api/src/main/java/net/starcore/api/StarCommand.java
+/workspaces/StarCORE/starcore-api/src/main/java/net/starcore/api/RankService.java
 /workspaces/StarCORE/starcore-api/src/main/java/net/starcore/api/TaskScheduler.java
 /workspaces/StarCORE/starcore-api/src/main/java/net/starcore/api/PlaceholderResolver.java
 /workspaces/StarCORE/starcore-api/src/main/java/net/starcore/api/PlayerData.java
@@ -6,6 +7,7 @@
 /workspaces/StarCORE/starcore-api/src/main/java/net/starcore/api/ConfigProvider.java
 /workspaces/StarCORE/starcore-api/src/main/java/net/starcore/api/DatabaseService.java
 /workspaces/StarCORE/starcore-api/src/main/java/net/starcore/api/EconomyService.java
+/workspaces/StarCORE/starcore-api/src/main/java/net/starcore/api/BankService.java
 /workspaces/StarCORE/starcore-api/src/main/java/net/starcore/api/MessageProvider.java
 /workspaces/StarCORE/starcore-api/src/main/java/net/starcore/api/Repository.java
 /workspaces/StarCORE/starcore-api/src/main/java/net/starcore/api/EventBus.java

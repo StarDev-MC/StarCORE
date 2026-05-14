@@ -1,6 +1,16 @@
+net/starcore/starshop/listener/PlayerQuitListener.class
 net/starcore/starshop/manager/ShopManager.class
-net/starcore/starshop/StarShopPlugin.class
+net/starcore/starshop/gui/CategoryMenuHolder.class
+net/starcore/starshop/gui/GuiUtils.class
+net/starcore/starshop/model/ShopCategory.class
+net/starcore/starshop/gui/ShopGuiManager.class
 net/starcore/starshop/command/SellCommand.class
+net/starcore/starshop/model/ShopItem.class
 net/starcore/starshop/manager/ShopItem.class
 net/starcore/starshop/command/ShopCommand.class
+net/starcore/starshop/defaults/DefaultShopGenerator.class
+net/starcore/starshop/model/Shop.class
+net/starcore/starshop/StarShopPlugin.class
+net/starcore/starshop/listener/ShopClickListener.class
+net/starcore/starshop/gui/ItemShopMenuHolder.class
 net/starcore/starshop/command/SellAllCommand.class
